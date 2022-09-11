@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap.min css-->
+<link rel="stylesheet"
+href="/assets/plugins/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet"
+href="index.css">
+<!-- Dashboard css -->
+<link href="/assets/css/style.css" rel="stylesheet" />
+
+<!-- Custom scroll bar css-->
+<link
+href="/assets/plugins/scroll-bar/jquery.mCustomScrollbar.css"
+rel="stylesheet" />
+
+<link
+href="/as"
+rel="stylesheet" />
+
+<!-- Horizontal-menu css -->
+<link
+th:href="/assets/plugins/horizontal-menu/dropdown-effects/fade-down.css"
+rel="stylesheet">
+<link th:href="/assets/plugins/horizontal-menu/horizontalmenu.css"
+rel="stylesheet">
+
+<!--Daterangepicker css-->
+<link
+th:href="/assets/plugins/bootstrap-daterangepicker/daterangepicker.css"
+rel="stylesheet" />
+
+<!-- Sidebar Accordions css -->
+<link
+href="/assets/plugins/accordion1/css/easy-responsive-tabs.css"
+rel="stylesheet">
+
+<!-- Rightsidebar css -->
+<link href="/assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
+<!-- Morris  Charts css-->
+<link href="/assets/plugins/morris/morris.css" rel="stylesheet" />
+
+<!---Font icons css-->
+<link href="/assets/plugins/iconfonts/plugin.css" rel="stylesheet" />
+<link href="/assets/plugins/iconfonts/icons.css" rel="stylesheet" />
+<link href="/assets/fonts/fonts/font-awesome.min.css"
+rel="stylesheet">
+<link href="/assets/plugins/sweet-alert/sweetalert.css"
+rel="stylesheet">
+<!-- File Uploads css-->
+<link href="/assets/plugins/fileuploads/css/dropify.css"
+rel="stylesheet" type="text/css" />
+
+<link href="/assets/plugins/gallery/gallery.css" rel="stylesheet">
+
+<!-- Title -->
+<link rel="shortcut icon" type="image/x-icon"
+	href="/img/coras_redimen.png" />
+<title>Pitore's world</title>
+</head>
+<body>
+    
+<header>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card " style="margin-bottom: 0px;">
+                <div class="card-header" style="border-left: 2px solid #C8A2C8;">
+                    <div class="card-title">Todo por una orejita</div>
+                </div>
+                <div class="header-style-2">
+                    <div class="header headerMenu  py-4">
+                        <div class="container">
+                            <div class="d-flex">
+                                <a class="header-brand" th:href="/}"> <img
+                                    src="/img/coras_redimen.png" class="header-brand-img"
+                                    alt="Hogo logo">
+                                </a>
+                                <div class="d-flex order-lg-2 ml-auto">
+
+                                    <div class="dropdown mt-1">
+                                        <a href="#" class="nav-link pr-0 leading-none"
+                                            data-toggle="dropdown"> <span
+                                            class="avatar avatar-md brround cover-image"
+                                            data-image-src="/img/foto1.png"></span>
+                                            <span class="ml-2 d-none d-lg-block"> <span
+                                                class="text-dark">♥ Mi chiquitita ♥</span>
+                                        </span>
+                                        </a>
+                                        <div
+                                            class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                            <a class="dropdown-item" href="#"> <i
+                                                class="dropdown-icon mdi mdi-account-outline "></i> Profile
+                                            </a> <a class="dropdown-item" href="#"> <i
+                                                class="dropdown-icon  mdi mdi-settings"></i> Settings
+                                            </a> <a class="dropdown-item" href="#"> <span
+                                                class="float-right"><span
+                                                    class="badge badge-primary">6</span></span> <i
+                                                class="dropdown-icon mdi  mdi-message-outline"></i> Inbox
+                                            </a> <a class="dropdown-item" href="#"> <i
+                                                class="dropdown-icon mdi mdi-comment-check-outline"></i>
+                                                Message
+                                            </a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#"> <i
+                                                class="dropdown-icon mdi mdi-compass-outline"></i> Need
+                                                help?
+                                            </a> <a class="dropdown-item" href="login.html"> <i
+                                                class="dropdown-icon mdi  mdi-logout-variant"></i> Sign out
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="header-toggler d-lg-none ml-3 ml-lg-0"
+                                    data-toggle="collapse" data-target="#headerMenuCollapse3">
+                                    <span class="header-toggler-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header collapse d-lg-flex p-0"
+                        id="headerMenuCollapse3">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg order-lg-first">
+                                    <ul class="nav nav-tabs border-0 flex-column flex-lg-row">
+                                        <li class="nav-item"><a class="nav-link  "
+                                            th:href="/}">♥ Ella </a></li>
+                                        <li class="nav-item"><a th:href="/carta}"
+                                            class="nav-link ">
+                                                es</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                            >chiquitita ♥</a></li>
+
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>  
+
+<main style="display: flex;justify-content: center;flex-direction: column;align-items: center; ">
+
+<img src="/img/15M.png" style="max-width: 90%;"  alt="">
+
+<div id="fotos">
+
+<!-- row -->
+<div class="demo-gallery card">
+    <div class="card-body" style="justify-content: center; display: flex;flex-direction: column;" >
+    
+        <ul id="lightgallery" class="list-unstyled row" style="align-items: center; display: flex; justify-content: center;">
+            <li class="col-xs-6 col-sm-4 col-md-3"
+                data-responsive="/img/foto3.png"
+                data-src="/img/foto3.png"
+                data-sub-html="<h4>Mi chiquitita y yoooooo</h4><p> Mi pandita pequeñita ♥</p>">
+								
+                 <a href="">
+                
+                 <img class="img-responsive"
+                    src="/img/foto3.png" alt="Thumb-1">
+            </a>
+            </li>
+            <li class="col-xs-6 col-sm-4 col-md-3"
+                data-responsive="/img/foto4.png"
+                data-src="/img/foto4.png"
+                data-sub-html="<h4>Tomándome fotitos con mi chiquitita</h4><p> Ella es chiquitita, ella es chiquitita</p>">
+								
+                 <a href=""> <img class="img-responsive"
+                    src="/img/foto4.png" alt="Thumb-2">
+            </a>
+            </li>
+            
+            <li class="col-xs-6 col-sm-4 col-md-3 mb-0"
+            data-responsive="/img/foto10.png"
+            data-src="/img/foto10.png"
+            data-sub-html="<h4>♥ Foto en la playa con mi amorchito ♥</h4><p> Ese día se me cansaron las piernas por tanto caminar jijiji</p>">
+								
+            <a href=""> <img class="img-responsive mb-0"
+                src="/img/foto10.png" alt="Thumb-1">
+        </a>
+        </li>
+
+        <li class="col-xs-6 col-sm-4 col-md-3 mb-0"
+            data-responsive="/img/foto9.png"
+            data-src="/img/foto9.png"
+            data-sub-html="<h4>Mi chiquitita peciosa</h4><p> Aquí se puede apreciar casi toda la belleza de mi chiquitita peciosa alias 'mi sonsita'</p>">
+								
+            <a href=""> <img class="img-responsive mb-0"
+                src="/img/foto9.png" alt="Thumb-1">
+        </a>
+        </li>
+        <li class="col-xs-6 col-sm-4 col-md-3 mb-0"
+            data-responsive="/img/foto8.png"
+            data-src="/img/foto8.png"
+            data-sub-html="<h4>♥ Mi bebeshita con su pecioso vestido azul ♥</h4><p> ♥ No sabes cuanto me encanta ese vestidoooooo ♥</p>">
+								
+            <a href=""> <img class="img-responsive mb-0"
+                src="/img/foto8.png" alt="Thumb-1">
+        </a>
+        </li>
+        <li class="col-xs-6 col-sm-4 col-md-3 mb-0"
+            data-responsive="/img/foto6.png"
+            data-src="/img/foto6.png"
+            data-sub-html="<h4>Mi chiquitita feliz como me gusta</h4><p>♥ Me encanta verte feliz.  Se te ve mucho más hermosa con tus ojos chinitos y tu risita ♥</p>">
+								
+            <a href=""> <img class="img-responsive mb-0"
+                src="/img/foto6.png" alt="Thumb-1">
+        </a>
+        </li>
+    </ul>
+       
+    
+    </div>
+</div>
+<!-- row end -->
+
+</div>
+
+
+</main>
+
+<footer>
+    <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <!-- Jquery js-->
+    <script src="/assets/js/vendors/jquery-3.2.1.min.js"></script>
+
+    <!--Bootstrap.min js-->
+    <script src="/assets/plugins/bootstrap/popper.min.js"></script>
+    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!--Jquery Sparkline js-->
+    <script src="/assets/js/vendors/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Circle js-->
+    <script src="/assets/js/vendors/circle-progress.min.js"></script>
+
+    <!-- Star Rating js-->
+    <script src="/assets/plugins/rating/jquery.rating-stars.js"></script>
+
+    <!--Moment js-->
+    <script src="/assets/plugins/moment/moment.min.js"></script>
+
+    <!-- Daterangepicker js-->
+    <script
+        src="/assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Horizontal-menu js -->
+    <script src="/assets/plugins/horizontal-menu/horizontalmenu.js"></script>
+
+    <!-- Sidebar Accordions js -->
+    <script
+        src="/assets/plugins/accordion1/js/easyResponsiveTabs.js"></script>
+
+    <!-- Custom scroll bar js-->
+    <script
+        src="/assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!--Owl Carousel js -->
+    <script src="/assets/plugins/owl-carousel/owl.carousel.js"></script>
+    <script src="/assets/plugins/owl-carousel/owl-main.js"></script>
+
+    <!-- Rightsidebar js -->
+    <script src="/assets/plugins/sidebar/sidebar.js"></script>
+
+    <!-- Charts js-->
+    <script src="/assets/plugins/chart/chart.bundle.js"></script>
+    <script src="/assets/plugins/chart/utils.js"></script>
+
+    <!--Time Counter js-->
+    <script
+        src="/assets/plugins/counters/jquery.missofis-countdown.js"></script>
+    <script src="/assets/plugins/counters/counter.js"></script>
+
+    <!--Morris  Charts js-->
+    <script src="/assets/plugins/morris/raphael-min.js"></script>
+    <script src="/assets/plugins/morris/morris.js"></script>
+
+    <!-- Custom-charts js-->
+    <script src="/assets/js/index1.js"></script>
+
+    <!-- Custom js-->
+    <script src="/assets/js/custom.js"></script>
+    <script src="/assets/plugins/sweet-alert/jquery.sweet-modal.min.js"></script>
+    <script src="/assets/plugins/sweet-alert/sweetalert.min.js"></script>
+    <script src="/assets/js/sweet-alert.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- File uploads js -->
+    <script src="/assets/plugins/fileuploads/js/dropify.js"></script>
+    <script src="/assets/plugins/fileuploads/js/dropify-demo.js"></script>
+
+    <script src="/assets/plugins/gallery/picturefill.js"></script>
+    <script src="/assets/plugins/gallery/lightgallery.js"></script>
+    <script src="/assets/plugins/gallery/lg-pager.js"></script>
+    <script src="/assets/plugins/gallery/lg-autoplay.js"></script>
+    <script src="/assets/plugins/gallery/lg-fullscreen.js"></script>
+    <script src="/assets/plugins/gallery/lg-zoom.js"></script>
+    <script src="/assets/plugins/gallery/lg-hash.js"></script>
+    <script src="/assets/plugins/gallery/lg-share.js"></script>
+    <script src="/assets/plugins/gallery/gallery.js"></script>
+    <script src="/assets/js/custom.js"></script>
+<!-- Gallery js -->
+
+
+</footer>
+</body>
+</html>
