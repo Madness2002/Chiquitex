@@ -1,39 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Last-Modified" content="0">
+  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+  <meta http-equiv="Pragma" content="no-cache">
     <!--Bootstrap.min css-->
 <link rel="stylesheet"
-href="/assets/plugins/bootstrap/css/bootstrap.min.css">
+href="bootstrap.min.css">
 
 <link rel="stylesheet"
 href="index.css">
 <!-- Dashboard css -->
-<link href="/assets/css/style.css" rel="stylesheet" />
+<link href="style.css" rel="stylesheet" />
 
 <!-- Custom scroll bar css-->
 <link
-href="/assets/plugins/scroll-bar/jquery.mCustomScrollbar.css"
+href="jquery.mCustomScrollbar.css"
 rel="stylesheet" />
+
 
 
 <!-- Horizontal-menu css -->
 <link
-href="/assets/plugins/horizontal-menu/dropdown-effects/fade-down.css"
+th:href="fade-down.css"
 rel="stylesheet">
-<link href="/assets/plugins/horizontal-menu/horizontalmenu.css"
+<link th:href="horizontalmenu.css"
 rel="stylesheet">
 
 <!--Daterangepicker css-->
 <link
-href="/assets/plugins/bootstrap-daterangepicker/daterangepicker.css"
+th:href="/assets/plugins/bootstrap-daterangepicker/daterangepicker.css"
 rel="stylesheet" />
 
 <!-- Sidebar Accordions css -->
 <link
-href="/assets/plugins/accordion1/css/easy-responsive-tabs.css"
+href="easy-responsive-tabs.css"
 rel="stylesheet">
 
 <!-- Rightsidebar css -->
@@ -43,21 +48,21 @@ rel="stylesheet">
 <link href="/assets/plugins/morris/morris.css" rel="stylesheet" />
 
 <!---Font icons css-->
-<link href="/assets/plugins/iconfonts/plugin.css" rel="stylesheet" />
-<link href="/assets/plugins/iconfonts/icons.css" rel="stylesheet" />
-<link href="/assets/fonts/fonts/font-awesome.min.css"
+<link href="plugin.css" rel="stylesheet" />
+<link href="icons.css" rel="stylesheet" />
+<link href="font-awesome.min.css"
 rel="stylesheet">
-<link href="/assets/plugins/sweet-alert/sweetalert.css"
+<link href="sweetalert.css"
 rel="stylesheet">
 <!-- File Uploads css-->
 <link href="/assets/plugins/fileuploads/css/dropify.css"
 rel="stylesheet" type="text/css" />
 
-<link href="/assets/plugins/gallery/gallery.css" rel="stylesheet">
+<link href="gallery.css" rel="stylesheet">
 
 <!-- Title -->
 <link rel="shortcut icon" type="image/x-icon"
-	href="/img/coras_redimen.png" />
+	href="coras_redimen.png" />
 <title>Pitore's world</title>
 </head>
 <body>
@@ -74,7 +79,7 @@ rel="stylesheet" type="text/css" />
                         <div class="container">
                             <div class="d-flex">
                                 <a class="header-brand" th:href="/}"> <img
-                                    src="/img/coras_redimen.png" class="header-brand-img"
+                                    src="coras_redimen.png" class="header-brand-img"
                                     alt="Hogo logo">
                                 </a>
                                 <div class="d-flex order-lg-2 ml-auto">
@@ -83,7 +88,7 @@ rel="stylesheet" type="text/css" />
                                         <a href="#" class="nav-link pr-0 leading-none"
                                             data-toggle="dropdown"> <span
                                             class="avatar avatar-md brround cover-image"
-                                            data-image-src="/img/foto1.png"></span>
+                                            data-image-src="foto1.png"></span>
                                             <span class="ml-2 d-none d-lg-block"> <span
                                                 class="text-dark">♥ Mi chiquitita ♥</span>
                                         </span>
@@ -149,7 +154,7 @@ rel="stylesheet" type="text/css" />
 
 <main style="display: flex;justify-content: center;flex-direction: column;align-items: center; ">
 
-<img src="/img/15M.png" style="max-width: 90%;"  alt="">
+<img src="15M.png" style="max-width: 90%;"  alt="">
 
 <div id="fotos">
 
@@ -159,61 +164,61 @@ rel="stylesheet" type="text/css" />
     
         <ul id="lightgallery" class="list-unstyled row" style="align-items: center; display: flex; justify-content: center;">
             <li class="col-xs-6 col-sm-4 col-md-3"
-                data-responsive="/img/foto3.png"
-                data-src="/img/foto3.png"
+                data-responsive="foto3.png"
+                data-src="foto3.png"
                 data-sub-html="<h4>Mi chiquitita y yoooooo</h4><p> Mi pandita pequeñita ♥</p>">
 								
                  <a href="">
                 
                  <img class="img-responsive"
-                    src="/img/foto3.png" alt="Thumb-1">
+                    src="foto3.png" alt="Thumb-1">
             </a>
             </li>
             <li class="col-xs-6 col-sm-4 col-md-3"
-                data-responsive="/img/foto4.png"
-                data-src="/img/foto4.png"
+                data-responsive="foto4.png"
+                data-src="foto4.png"
                 data-sub-html="<h4>Tomándome fotitos con mi chiquitita</h4><p> Ella es chiquitita, ella es chiquitita</p>">
 								
                  <a href=""> <img class="img-responsive"
-                    src="/img/foto4.png" alt="Thumb-2">
+                    src="foto4.png" alt="Thumb-2">
             </a>
             </li>
             
             <li class="col-xs-6 col-sm-4 col-md-3 mb-0"
-            data-responsive="/img/foto10.png"
-            data-src="/img/foto10.png"
+            data-responsive="foto10.png"
+            data-src="foto10.png"
             data-sub-html="<h4>♥ Foto en la playa con mi amorchito ♥</h4><p> Ese día se me cansaron las piernas por tanto caminar jijiji</p>">
 								
             <a href=""> <img class="img-responsive mb-0"
-                src="/img/foto10.png" alt="Thumb-1">
+                src="foto10.png" alt="Thumb-1">
         </a>
         </li>
 
         <li class="col-xs-6 col-sm-4 col-md-3 mb-0"
-            data-responsive="/img/foto9.png"
-            data-src="/img/foto9.png"
+            data-responsive="foto9.png"
+            data-src="foto9.png"
             data-sub-html="<h4>Mi chiquitita peciosa</h4><p> Aquí se puede apreciar casi toda la belleza de mi chiquitita peciosa alias 'mi sonsita'</p>">
 								
             <a href=""> <img class="img-responsive mb-0"
-                src="/img/foto9.png" alt="Thumb-1">
+                src="foto9.png" alt="Thumb-1">
         </a>
         </li>
         <li class="col-xs-6 col-sm-4 col-md-3 mb-0"
-            data-responsive="/img/foto8.png"
-            data-src="/img/foto8.png"
+            data-responsive="foto8.png"
+            data-src="foto8.png"
             data-sub-html="<h4>♥ Mi bebeshita con su pecioso vestido azul ♥</h4><p> ♥ No sabes cuanto me encanta ese vestidoooooo ♥</p>">
 								
             <a href=""> <img class="img-responsive mb-0"
-                src="/img/foto8.png" alt="Thumb-1">
+                src="foto8.png" alt="Thumb-1">
         </a>
         </li>
         <li class="col-xs-6 col-sm-4 col-md-3 mb-0"
-            data-responsive="/img/foto6.png"
-            data-src="/img/foto6.png"
+            data-responsive="foto6.png"
+            data-src="foto6.png"
             data-sub-html="<h4>Mi chiquitita feliz como me gusta</h4><p>♥ Me encanta verte feliz.  Se te ve mucho más hermosa con tus ojos chinitos y tu risita ♥</p>">
 								
             <a href=""> <img class="img-responsive mb-0"
-                src="/img/foto6.png" alt="Thumb-1">
+                src="foto6.png" alt="Thumb-1">
         </a>
         </li>
     </ul>
@@ -232,45 +237,45 @@ rel="stylesheet" type="text/css" />
     <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
 
     <!-- Jquery js-->
-    <script src="/assets/js/vendors/jquery-3.2.1.min.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
 
     <!--Bootstrap.min js-->
-    <script src="/assets/plugins/bootstrap/popper.min.js"></script>
-    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
 
     <!--Jquery Sparkline js-->
-    <script src="/assets/js/vendors/jquery.sparkline.min.js"></script>
+    <script src="jquery.sparkline.min.js"></script>
 
     <!-- Chart Circle js-->
-    <script src="/assets/js/vendors/circle-progress.min.js"></script>
+    <script src="circle-progress.min.js"></script>
 
     <!-- Star Rating js-->
-    <script src="/assets/plugins/rating/jquery.rating-stars.js"></script>
+    <script src="jquery.rating-stars.js"></script>
 
     <!--Moment js-->
-    <script src="/assets/plugins/moment/moment.min.js"></script>
+    <script src="moment.min.js"></script>
 
     <!-- Daterangepicker js-->
     <script
         src="/assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
 
     <!-- Horizontal-menu js -->
-    <script src="/assets/plugins/horizontal-menu/horizontalmenu.js"></script>
+    <script src="horizontalmenu.js"></script>
 
     <!-- Sidebar Accordions js -->
     <script
-        src="/assets/plugins/accordion1/js/easyResponsiveTabs.js"></script>
+        src="easyResponsiveTabs.js"></script>
 
     <!-- Custom scroll bar js-->
     <script
-        src="/assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+        src="jquery.mCustomScrollbar.concat.min.js"></script>
 
     <!--Owl Carousel js -->
     <script src="/assets/plugins/owl-carousel/owl.carousel.js"></script>
     <script src="/assets/plugins/owl-carousel/owl-main.js"></script>
 
     <!-- Rightsidebar js -->
-    <script src="/assets/plugins/sidebar/sidebar.js"></script>
+    <script src="sidebar.js"></script>
 
     <!-- Charts js-->
     <script src="/assets/plugins/chart/chart.bundle.js"></script>
@@ -298,16 +303,16 @@ rel="stylesheet" type="text/css" />
     <script src="/assets/plugins/fileuploads/js/dropify.js"></script>
     <script src="/assets/plugins/fileuploads/js/dropify-demo.js"></script>
 
-    <script src="/assets/plugins/gallery/picturefill.js"></script>
-    <script src="/assets/plugins/gallery/lightgallery.js"></script>
-    <script src="/assets/plugins/gallery/lg-pager.js"></script>
-    <script src="/assets/plugins/gallery/lg-autoplay.js"></script>
-    <script src="/assets/plugins/gallery/lg-fullscreen.js"></script>
-    <script src="/assets/plugins/gallery/lg-zoom.js"></script>
-    <script src="/assets/plugins/gallery/lg-hash.js"></script>
-    <script src="/assets/plugins/gallery/lg-share.js"></script>
-    <script src="/assets/plugins/gallery/gallery.js"></script>
-    <script src="/assets/js/custom.js"></script>
+    <script src="picturefill.js"></script>
+    <script src="lightgallery.js"></script>
+    <script src="lg-pager.js"></script>
+    <script src="lg-autoplay.js"></script>
+    <script src="lg-fullscreen.js"></script>
+    <script src="lg-zoom.js"></script>
+    <script src="lg-hash.js"></script>
+    <script src="lg-share.js"></script>
+    <script src="gallery.js"></script>
+    <script src="custom.js"></script>
 <!-- Gallery js -->
 
 
